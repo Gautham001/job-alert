@@ -27,8 +27,8 @@ SCRAPERS = [
     fetch_paypal_jobs,
     fetch_uber_jobs,
     lambda: fetch_linkedin_jobs(
-        "https://www.linkedin.com/jobs/search?keywords=Software%20Engineer&location=San%20Jose&geoId=106233382&distance=50&f_TPR=r3600&position=1&pageNum=0", 
-        "linkedin_software_engineer"
+        "https://www.linkedin.com/jobs/search/?currentJobId=4200310313&f_TPR=r3600&geoId=103644278&keywords=powerapps&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true", 
+        "linkedin_powerapps"
     ),
      lambda: fetch_linkedin_jobs(
         "https://www.linkedin.com/jobs/search?keywords=Full%20Stack&location=San%20Jose&geoId=106233382&distance=25&f_TPR=r3600&position=1&pageNum=0", 
